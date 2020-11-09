@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "blab"
+version = "0.0.1"
+description = "Python toolset to support the development of thing networks"
+authors = ["Collin Watson <collinwat@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+platformio = "^5.0.2"
+
+
+[tool.poetry.dev-dependencies]
+ipython = "^7.19.0"
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
