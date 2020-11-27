@@ -6,7 +6,9 @@ authors = ["Collin Watson <collinwat@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-platformio = "^5.0.2"
+platformio = "^5.0.3"
+pylint = "^2.6"
+black = "^20.8b1"
 
 
 [tool.poetry.dev-dependencies]
