@@ -2,5 +2,6 @@
 # To disable for a line use `// clang-format off`
 BasedOnStyle: Google # https://google.github.io/styleguide/cppguide.html
 AlignAfterOpenBracket: AlwaysBreak
+AllowShortFunctionsOnASingleLine: Empty
 BinPackArguments: false
 BinPackParameters: false
