@@ -1,3 +1,19 @@
-.pio
-.vscode
-build/
+# Ignore common patterns
+*.log
+
+# Ignore local PlatformIO locations
+compile_commands.json
+.pio/
+.venv/
+
+# Ignore local Visual Studio Code locations
+*.code-workspace
+.vscode/
+
+# Ignore local coc-nvim locations
+.ccls
+.clang_complete
+.gcc-flags.json
+.cache
+.ccls-cache/
+.vim/
