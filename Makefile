@@ -15,7 +15,7 @@ PYTHON=$(VENV)/bin/python
 endif
 
 ifeq ($(ENV),)
-ENV_FLAG=
+ENV_FLAG=-e main
 else
 ENV_FLAG=-e $(ENV)
 endif
@@ -52,6 +52,10 @@ install:
 
 .PHONY: reinstall
 reinstall: uninstall install
+
+.PHONY: run
+run:
+	poetry run pio run $(ENV_FLAG) -t compiledb -t upload -t monitor
 
 .PHONY: uninstall
 uninstall:
